@@ -82,8 +82,10 @@ Users should be able to:
 
 4. Database Design
 The core database consists of three tables.
+
 Table 1: Categories
 A category classifies each transaction.
+
 Column	Type	Description
 id	Integer	Primary key
 name	String	Category name
@@ -115,6 +117,7 @@ created_at	DateTime	Record creation date
 
 
 Important: Use NUMERIC(14,2) or Python's Decimal for monetary values rather than floating-point numbers.
+
 Table 3: Budgets
 Column	Type	Description
 id	Integer	Primary key
